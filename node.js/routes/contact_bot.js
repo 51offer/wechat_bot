@@ -23,7 +23,7 @@ router.post('/', function(req, res, next) {
 
       var msgText = "找不到你呀，输错了吧~";
       if (obj) {
-        msgText = "我抓住你了：" + obj.get("enname") + 
+        msgText = "我抓住你了：" + obj.get("enname") +
         "\n部门:" + obj.get("sector") +
         // "\n邮箱:" + obj.get("mail") +
         // "\n手机号:" + obj.get("mobile") +
