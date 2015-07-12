@@ -14,6 +14,11 @@
 		0DEB7A391B52968F004AD3AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DEB7A381B52968F004AD3AF /* Images.xcassets */; };
 		0DEB7A3C1B52968F004AD3AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DEB7A3A1B52968F004AD3AF /* LaunchScreen.xib */; };
 		0DEB7A481B52968F004AD3AF /* friendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEB7A471B52968F004AD3AF /* friendTests.swift */; };
+		0DEB7A521B529896004AD3AF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEB7A511B529896004AD3AF /* SystemConfiguration.framework */; };
+		0DEB7A541B5298A0004AD3AF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEB7A531B5298A0004AD3AF /* MobileCoreServices.framework */; };
+		0DEB7A561B5298A9004AD3AF /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEB7A551B5298A9004AD3AF /* CoreTelephony.framework */; };
+		0DEB7A581B5298B0004AD3AF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEB7A571B5298B0004AD3AF /* CoreLocation.framework */; };
+		0DEB7A5A1B5298B7004AD3AF /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DEB7A591B5298B7004AD3AF /* libicucore.dylib */; };
 		2B91E5D282DE927999A5A0C7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF046F393EBD085B01DCEB2A /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,6 +44,12 @@
 		0DEB7A411B52968F004AD3AF /* friendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = friendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEB7A461B52968F004AD3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DEB7A471B52968F004AD3AF /* friendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendTests.swift; sourceTree = "<group>"; };
+		0DEB7A511B529896004AD3AF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0DEB7A531B5298A0004AD3AF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0DEB7A551B5298A9004AD3AF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0DEB7A571B5298B0004AD3AF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0DEB7A591B5298B7004AD3AF /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		0DEB7A5B1B529A7A004AD3AF /* friend-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "friend-Bridging-Header.h"; sourceTree = "<group>"; };
 		3558A0889081E763C655C3EE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5E338480C6B5B4279B711BA1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BF046F393EBD085B01DCEB2A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +60,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DEB7A5A1B5298B7004AD3AF /* libicucore.dylib in Frameworks */,
+				0DEB7A581B5298B0004AD3AF /* CoreLocation.framework in Frameworks */,
+				0DEB7A561B5298A9004AD3AF /* CoreTelephony.framework in Frameworks */,
+				0DEB7A541B5298A0004AD3AF /* MobileCoreServices.framework in Frameworks */,
+				0DEB7A521B529896004AD3AF /* SystemConfiguration.framework in Frameworks */,
 				2B91E5D282DE927999A5A0C7 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,6 +109,7 @@
 				0DEB7A381B52968F004AD3AF /* Images.xcassets */,
 				0DEB7A3A1B52968F004AD3AF /* LaunchScreen.xib */,
 				0DEB7A2D1B52968F004AD3AF /* Supporting Files */,
+				0DEB7A5B1B529A7A004AD3AF /* friend-Bridging-Header.h */,
 			);
 			path = friend;
 			sourceTree = "<group>";
@@ -125,6 +142,11 @@
 		2844D35FB4962E880A274C9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0DEB7A591B5298B7004AD3AF /* libicucore.dylib */,
+				0DEB7A571B5298B0004AD3AF /* CoreLocation.framework */,
+				0DEB7A551B5298A9004AD3AF /* CoreTelephony.framework */,
+				0DEB7A531B5298A0004AD3AF /* MobileCoreServices.framework */,
+				0DEB7A511B529896004AD3AF /* SystemConfiguration.framework */,
 				BF046F393EBD085B01DCEB2A /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -422,9 +444,12 @@
 			baseConfigurationReference = 5E338480C6B5B4279B711BA1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = friend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "friend/friend-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -433,9 +458,11 @@
 			baseConfigurationReference = 3558A0889081E763C655C3EE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = friend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "friend/friend-Bridging-Header.h";
 			};
 			name = Release;
 		};

@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-AVOSCloud.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ReactiveCocoa.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-friend-AVOSCloud.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -15,6 +25,11 @@
 			<false/>
 		</dict>
 		<key>Pods-friend.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-friendTests-AVOSCloud.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0BC39E65E4BE93A46C965C03</key>
+		<key>29706E11FB640D4BFCBE36A3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>30C76B4A543D2F036C2F7EF1</key>
+		<key>4E00BC520C2D9D1CB0B01788</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4A6BB4E893876519DA9DDC73</key>
+		<key>7ABE6143894B82A0DCE4E4DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>65362B666077E423D40CC13E</key>
+		<key>A6469306EF21525C7F5508B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B8D7C0E334DBB6B3C9777860</key>
+		<key>AA6D0540C7A93EEB9683E330</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E4892954B5B6A059481D3018</key>
+		<key>D73682CED9A5CD840DCE558E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1CB256371B4868A1CEC8CE4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FACAEFDFCFA4A4AB3CBC1B89</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE99BB9FBDA46ECC61BCF424</key>
 		<dict>
 			<key>primary</key>
 			<true/>
