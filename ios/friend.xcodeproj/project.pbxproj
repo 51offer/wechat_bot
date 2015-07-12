@@ -102,6 +102,9 @@
 		0DEB7A2C1B52968F004AD3AF /* friend */ = {
 			isa = PBXGroup;
 			children = (
+				0DEB7A5E1B529E1D004AD3AF /* Model */,
+				0DEB7A5F1B529E2F004AD3AF /* View */,
+				0DEB7A601B529E37004AD3AF /* ViewModel */,
 				0DEB7A2F1B52968F004AD3AF /* AppDelegate.swift */,
 				0DEB7A311B52968F004AD3AF /* FirstViewController.swift */,
 				0DEB7A331B52968F004AD3AF /* SecondViewController.swift */,
@@ -137,6 +140,27 @@
 				0DEB7A461B52968F004AD3AF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DEB7A5E1B529E1D004AD3AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0DEB7A5F1B529E2F004AD3AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0DEB7A601B529E37004AD3AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		2844D35FB4962E880A274C9F /* Frameworks */ = {
